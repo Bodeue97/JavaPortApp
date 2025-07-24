@@ -1,4 +1,4 @@
-package pl.bohdanlukaszewicz.JavaPortApp.User;
+package pl.bohdanlukaszewicz.JavaPortApp.User.DTO;
 
 import lombok.*;
 import pl.bohdanlukaszewicz.JavaPortApp.Enums.Role;
@@ -8,7 +8,7 @@ import pl.bohdanlukaszewicz.JavaPortApp.Enums.Role;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User {
+public class UserDto {
     private Long id;
     private String username;
     private String email;
@@ -16,9 +16,4 @@ public class User {
     private String lastName;
     private Role role;
     private boolean enabled;
-    private String passwordHashed;
-
-
-
-
 }

@@ -1,6 +1,9 @@
-package pl.bohdanlukaszewicz.JavaPortApp.User;
+package pl.bohdanlukaszewicz.JavaPortApp.User.Mapper;
 
 import org.springframework.stereotype.Component;
+import pl.bohdanlukaszewicz.JavaPortApp.User.DTO.UserDto;
+import pl.bohdanlukaszewicz.JavaPortApp.User.Model.User;
+import pl.bohdanlukaszewicz.JavaPortApp.User.Model.UserModel;
 
 @Component
 public class UserMapper {

@@ -1,4 +1,4 @@
-package pl.bohdanlukaszewicz.JavaPortApp.User;
+package pl.bohdanlukaszewicz.JavaPortApp.User.Model;
 
 import jakarta.persistence.*;
 import lombok.*;
